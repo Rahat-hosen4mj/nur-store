@@ -1,0 +1,28 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+    
+}
+nav ul li p{
+    transition: all ease 0.3s;
+    font-size: 17px;
+    font-weight: 400;
+}
+nav ul li:hover p{
+    /* background-color: red; */
+    color: #ff9900;
+    transform: scale(1.1);
+}
